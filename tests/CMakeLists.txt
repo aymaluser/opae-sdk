@@ -158,9 +158,6 @@ target_include_directories(mock PUBLIC
 add_dependencies(mock mock-sysfs-prepare)
 target_link_libraries(mock dl safestr)
 
-# Add discrete tests
-add_subdirectory(dcp)
-
 ############################################################################
 ## Add testing targets #####################################################
 ############################################################################

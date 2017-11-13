@@ -6,7 +6,7 @@ pushd mybuild_gtest
 trap "popd" EXIT
 
 cmake .. -DBUILD_TESTS=ON
-make -j
+make
 
 make test
 echo "test-build PASSED"
